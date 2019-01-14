@@ -23,7 +23,7 @@ getData()
 *`async / await` 是在 ES2017 中引入的，所以记得转译你的代码。*
 
 
-# 2. async control flow
+# 2.async control flow
 实际开发中不可避免地经常会遇到这种情况，我们要获取多个数据项然后分别对它们进行某些处理，或者需要在所有异步调用都得到返回值后再完成某项任务。
 
 ## for…of
@@ -93,7 +93,7 @@ fetchData(myData)
 
 *注：`for...of` 与 `Promise.all` 都是在 ES6+ 引入的，所以（必要的话）记得转译你的代码。*
 
-# 3. Destructuring & default values
+# 3.Destructuring & default values
 
 让我们返回到上一示例中，我们是这样做的：
 
@@ -266,7 +266,7 @@ const data = myObj?.firstProp?.secondProp?.actualData
 
 *注：目前可选链式调用 (optional chaining) 还不是官方规范的一部分，是处于 stage-1 的实验性特性。你需要在你的 balelrc 中添加插件 @babel/plugin-proposal-optional-chaining 来使用。*
 
-# 7. Class properties & binding 
+# 7.Class properties & binding 
 
 函数绑定在 JavaScript 中十分常见。随着 ES6 规范中箭头函数的引入，我们现在有办法自动绑定函数到定义时上下文了，这种方法非常好用，被 JavaScript 开发者广泛使用。类刚刚引入的时候，你并不能真正的使用箭头函数，因为类方法需要一种特定的声明方式。我们要在其他地方绑定函数，如在构造器中（React.js 的最佳实践）。我一直觉得先定义类方法然后再绑定的流程很烦人，一段时候过后再看更感觉莫名其妙。有了类属性语法，我们又可以用箭头函数获得自动绑定的好处。箭头函数现在可以在类内使用了。示例如下，重点看 _increaseCount 是如何绑定的：
 
@@ -294,7 +294,7 @@ class Counter extends React.Component {
 
 *注：目前，class properties 并不是正式官方规范的一部分，是处于第3阶段的一个实验性特性。需要在你的 balelrc 中添加插件 @babel/plugin-proposal-class-properties 来使用。*
 
-# 8. Use parcel
+# 8.Use parcel
 做为前端开发者，你肯定遇到过打包和转译代码的情况。wepback 成为事实标准已经有很长一段时间了。我最初使用 webpack 时它还处于第一个版本，那时候很痛苦。我花了无数个小时去处理各种不同的配置项，让项目打包运行。一旦能跑起来，我就再也不会去动它们，怕又给弄坏了。几个月前偶然发现的 parcel，让我松了口气。它提供的所有功能开箱即用，同时还允许我们在必要时做出更改。它像 webpack 或者 babel 一样支持插件系统，并且速度极快。如果你还没听过 parcel，墙裂建议去看看！
 
 # 9.Write more code yourself
