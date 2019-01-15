@@ -1,5 +1,6 @@
-
-译自：https://levelup.gitconnected.com/9-tricks-for-kickass-javascript-developers-in-2019-eb01dd3def2a
+> - 原文地址：https://levelup.gitconnected.com/9-tricks-for-kickass-javascript-developers-in-2019-eb01dd3def2a
+> - 原文作者：[Lukas Gisder-Dubé](https://levelup.gitconnected.com/@gisderdube)
+> - Markdown 地址：https://github.com/wanghaiqiong/translation-articles-FE/blob/master/articles/%E3%80%90%E8%AF%91%E3%80%912019%E5%B9%B4%E7%BB%99%E7%89%9B%E6%8E%B0%E7%9A%84%20JavaScript%20%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%849%E6%9D%A1%E6%8A%80%E5%B7%A7.md
 
 又一年过去了，JavaScript 也一直在改变。不过有些技巧可以帮助你写出简洁高效可伸缩的代码，即便是（或者说特别是）2019 年。下面 9 条实用小技巧能助你成为一个更好的开发者。
 
