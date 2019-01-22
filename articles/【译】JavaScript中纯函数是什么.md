@@ -68,6 +68,10 @@ add(4); // x === 6 (the first time)
 
 <iframe width="700" height="393" src="https://www.youtube.com/embed/7Zlp9rKHGD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<video src="https://www.youtube.com/embed/7Zlp9rKHGD4" width="700" height="393" controls="controls">
+Your browser does not support the video tag.
+</video>
+
 如下是产生了副作用的不纯函数。
 
 ### 还凑合
