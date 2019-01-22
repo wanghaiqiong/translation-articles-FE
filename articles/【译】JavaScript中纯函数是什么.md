@@ -1,10 +1,10 @@
 > - 原文地址：https://medium.freecodecamp.org/what-is-a-pure-function-in-javascript-acb887375dfe
 > - 原文作者：[Yazeed Bzadough](https://medium.freecodecamp.org/@yazeedb)
-> - Markdown 地址：
+> - Markdown 地址：https://github.com/wanghaiqiong/translation-articles-FE/blob/master/articles/【译】JavaScript中纯函数是什么.md
 
 纯函数是程序函数式编程语言中原子构建块（最简单的可重用代码构建块）。简单和易测试性的特点使其备受推崇。
 
-本将提供一个快速检测列表，用于判断一个函数是否为纯函数。
+本文将提供一个快速检测列表，用于判断一个函数是否为纯函数。
 
 ![image](./assets/pureFn1.jpg)
 
@@ -45,9 +45,9 @@ add(4); // x === 6 (the first time)
 **共享状态** 具有时间依赖性。不同的时间调用，会得到不一样的结果。第一次得到的结果是 `6`，第二次是 `10` 以此类推。
 
 ### 哪一版更加合理？
-哪种方式更不容易产生 bug，尤其是在某些特定条件下？
+在某些特定条件下哪种方式更不容易产生 bug？
 
-哪种方式更容易成功运转，在那些受时间因素影响的多线程系统环境中？
+在那些受时间因素影响的多线程系统环境中哪种方式更容易成功？
 
 显然是第一种。
 
