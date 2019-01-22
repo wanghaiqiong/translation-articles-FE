@@ -64,13 +64,7 @@ add(4); // x === 6 (the first time)
 
 基本上函数中执行的任何操作都与最终计算输入结果无关，仅仅依赖于传入的参数。
 
-推荐大家看看 Uncle Bob Martin 对于系统状态问题的讲解。大约从 15min 处开始。
-
-<iframe width="700" height="393" src="https://www.youtube.com/embed/7Zlp9rKHGD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<video src="https://www.youtube.com/embed/7Zlp9rKHGD4" width="700" height="393" controls="controls">
-Your browser does not support the video tag.
-</video>
+推荐大家看看 Uncle Bob Martin 对于系统状态问题的[讲解视频](https://www.youtube.com/embed/7Zlp9rKHGD4)。大约从 15min 处开始。
 
 如下是产生了副作用的不纯函数。
 
